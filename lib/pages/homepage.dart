@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
   Widget _signOutButton() {
     return ElevatedButton(
       onPressed: signOut,
-      child: const Text('log Out'),
+      child: const Text('Sign Out'),
     );
   }
 
